@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class AdminMyAppUser {
-
+    String name = "oyyahhh";
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
